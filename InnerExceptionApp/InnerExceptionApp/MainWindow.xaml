@@ -1,0 +1,14 @@
+﻿<Window x:Class="InnerExceptionApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InnerExceptionApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock>123</TextBlock>
+        <Button Click="Button_Click" Content="착한 버튼"></Button>
+        <Button Click="Button_Click_1" Content="나쁜 버튼"></Button>
+    </StackPanel>
+</Window>
